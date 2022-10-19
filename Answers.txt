@@ -1,0 +1,32 @@
+﻿1.Explain about the main method in java?
+Without the main() method,JVM will not execute the program. Only the local variable is declared and  the Access modifier is not able to declared Inside the main method.
+Syntax-public static void main(String[] args){
+}
+2.What are the different  Control flow Statements available in java?
+There are three control flow statement in java is
+Decisionmaking statement,loop statement, Branching statement.
+3.What is the Difference betweeen break and continue statements?
+Break; - To terminate the the current iteration in the loop.
+Continue - To skip the current iteration in the loop.3
+4.What is an Array? How will you declare an array in java?
+Array is a collection of similar datatypes and then declare 
+int[] myArray = {values}; 
+int[] intArray = new int[values];
+5.When will you get ArrayIndexOutOfBoundsException?
+When the array index limit is exceed than my declare value, I get 
+ArrayIndexOutOfBoundsException.
+6.Define the Syntax to create an object for a class?
+ To call a method in class,so we creating the object for a class in main method.
+7.What is Variable?How will you declare a variables in java?
+Variable is used to assign the value and then we get the value to declare the variable.
+Int a=10;
+8.What is String in java? Is it a Data Type?
+  String is a non-primitive datatype and it is a immutable because we cant change the value in run time.
+
+9.What are the different ways to create the String Object in java?
+      Using  literal: string name="    ";
+       Using Keyword: String text = new String(" ");
+ 
+10.What is the Difference between .Equals and ==?      
+    .equals is check the content of the data
+         == is check the memory address of the data (ASCII value)
